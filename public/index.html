@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Stories</title>
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style><noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <style>
+        amp-story-grid-layer.bottom {
+            align-content: end;
+        }
+
+        amp-story-grid-layer.noedge {
+            padding: 0px;
+        }
+
+        amp-story-grid-layer.center-text {
+            align-content: center;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+        }
+
+        .banner-text {
+            text-align: center;
+            background-color: #000;
+            line-height: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <amp-story standalone title="Google Devs Programs" publisher="AMP tutorials">
+
+        <amp-story-page id="cover">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="assets/gdg.png" width="720" height="1280" layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" style="color:white">
+                <h1 animate-in="fly-in-right">Google Developers Groups</h1>
+                <p animate-in="fade-in">Google Developer Groups (GDGs) are for developers who are interested in Google's
+                    developer technology.</p>
+                <a href="https://developers.google.com/community/gdg"
+                    style="max-width: 200px;border-radius: 12px;padding: 4px;color: white;">Know More</a>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page1" style="background: white">
+            <amp-story-grid-layer template="vertical">
+                <h1>Women Techmakers</h1>
+                <amp-img src="assets/wtm.png" width="720" height="480" layout="responsive">
+                </amp-img>
+                <q>Google's Women Techmakers program provides visibility, community, and resources for women in
+                    technology.</q>
+                <a href="https://developers.google.com/womentechmakers"
+                    style="max-width: 200px;border-radius: 12px;padding: 4px;">Know More</a>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page2" style="background: white">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="assets/gde.png" width="720" height="1280" layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="thirds" style="color: white">
+                <div grid-area="upper-third">
+                    <h1>Goolge Developers Experts</h1>
+                    <p>A global program to recognize individuals who are experts and thought leaders
+                        in one or more Google technologies. These professionals actively contribute and support the
+                        developer and startup ecosystems around the world, helping them build and launch highly
+                        innovative
+                        apps.</p>
+                </div>
+                <a grid-area="lower-third" href="https://developers.google.com/community/experts"
+                    style="max-width: 200px;border-radius: 12px;padding: 4px;color: white;">Know More</a>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page3" style="background: white;color:white">
+            <amp-story-grid-layer template="fill">
+                <amp-img
+                    src="assets/gdgoncampus.png"
+                    width="720" height="1280" layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical">
+                <h1>GDG On Campus</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p>GDG On Campus are community groups for students from any academic background in their undergraduate or graduate term.</p>
+                <a href="https://developers.google.com/community/gdsc"
+                    style="max-width: 200px;border-radius: 12px;padding: 4px;color: white;">Know More</a>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+    </amp-story>
+</body>
+
+</html>
