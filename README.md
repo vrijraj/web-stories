@@ -1,5 +1,5 @@
 # AMP Story
-AMP story is a full-screen visual storytelling experience that conveys information with images, videos, graphics, audio, and more. 
+[AMP story](https://amp.dev/about/stories) is a full-screen visual storytelling experience that conveys information with images, videos, graphics, audio, and more. 
 
 ## amp-story web component
 
