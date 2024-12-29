@@ -1,6 +1,8 @@
 # AMP Story
 [AMP story](https://amp.dev/about/stories) is a full-screen visual storytelling experience that conveys information with images, videos, graphics, audio, and more. 
 
+Check out the [Gradus Codelab](https://gradus.vrijraj.xyz/amp-web-stories?page=0)
+
 ## amp-story web component
 
 <img src='https://amp.dev/static/img/docs/tutorials/amp_story/story_parts.png' width="100%">
